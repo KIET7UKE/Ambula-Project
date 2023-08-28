@@ -6,9 +6,9 @@ function Navbar() {
   const [activeLink, setActiveLink] = useState('');
   return (
     <div className='h-[80px] px-10 flex flex-row justify-between items-center'>
-        <Link to='/home' className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => setActiveLink('home')}><img src={logo} alt="" /></Link>
+        <Link to='/' className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => setActiveLink('home')}><img src={logo} alt="" /></Link>
         <div className='flex flex-row gap-10 text-lg font-semibold'>
-            <Link to='/home' className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => setActiveLink('home')}>Home</Link>
+            <Link to='/' className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => setActiveLink('home')}>Home</Link>
             <Link to='/about' className={`nav-link ${activeLink === 'about' ? 'active' : ''}`} onClick={() => setActiveLink('about')}>About</Link>
             <Link to='/contact' className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} onClick={() => setActiveLink('contact')}>Contact</Link>
             <Link to='/todo-app' className={`nav-link ${activeLink === 'todo-app' ? 'active' : ''}`} onClick={() => setActiveLink('todo-app')}>Todo-App</Link>

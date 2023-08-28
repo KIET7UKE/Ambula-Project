@@ -14,7 +14,7 @@ function App() {
       <div>
         <Navbar/>
         <Routes>
-          <Route exact path='/home' element={<Home/>} />
+          <Route exact path='/' element={<Home/>} />
           <Route exact path='/about' element={<About/>} />
           <Route exact path='/contact' element={<Contact/>} />
           <Route exact path='/todo-app' element={<TodoApp/>} />
