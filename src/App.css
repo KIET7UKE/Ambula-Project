@@ -1,0 +1,10 @@
+/* Example CSS */
+.nav-link {
+    transition: color 0.3s;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: red;
+  }
+  
